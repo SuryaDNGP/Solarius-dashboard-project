@@ -1,0 +1,28 @@
+.sidebar-nav__link svg{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    stroke-width: 12px;
+    fill: transparent ;
+    stroke-dasharray: 6200;
+    stroke-dashoffset: 6200;
+    opacity: 0;
+    stroke: black;
+    z-index: 2;
+   
+
+}
+
+
+.sidebar-nav__link:hover svg{
+    opacity: 1;
+    stroke-dashoffset: 0;
+    
+    transition: opacity 0s, stroke-dashoffset 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.sidebar-nav__link--active svg{
+    stroke-dashoffset: 0;
+    opacity: 1;
+}

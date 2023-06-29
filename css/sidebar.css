@@ -21,21 +21,24 @@
     display:flex;
     align-items: center;
     text-decoration: none;
+    
     margin: 1.2rem 3rem;
     padding: 1rem 2rem;
     color: var(--color-black);
     font-weight: 500;
+    
 }
-
+/* 
 .sidebar-nav__link:hover{
     background-color: var(--color-secondary);
 
-}
+} */
 
 .sidebar-nav__sub-link:link,.sidebar-nav__sub-link:visited{
     display:flex;
     align-items: center;
     text-decoration: none;
+   
     margin: 1.2rem 3rem;
     padding: 1.2rem 3rem 1.2rem 6rem;
     color: var(--color-gray);
@@ -62,3 +65,14 @@
 .is-active{
     display: none;
   }
+
+
+.sidebar-nav__link{
+    position: relative;
+    z-index: 5;
+}
+
+
+.logout{
+    padding-bottom: 3rem;
+}
