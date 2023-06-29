@@ -1,0 +1,114 @@
+
+/*75em;     // 1200px
+68.75em;    // 1100px
+56.25em;   // 900px
+37.5em;     // 600px
+31.25em; // 500px */
+
+:root{
+    --color-black: #1A1A1A; 
+    --color-gray: #969292;
+    --color-primary: #FBF7F4;
+    --color-secondary: #EFE6E2;
+    --color-white: #ffffff
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; 
+   
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.h1{
+    font-size: 2.4rem;
+}
+
+.h2{
+    font-size: 2rem;
+}
+
+.h3{
+    font-size: 1.8rem
+}
+
+.h4{
+    font-size: 1.6rem
+}
+
+.h5{
+    font-size: 1.4rem;
+}
+
+.h6{
+    font-size: 1.2rem;
+}
+
+.b{
+    font-weight: 700;
+}
+
+.sb{
+    font-weight: 600;
+}
+
+.m{
+    font-weight: 500;
+}
+
+.r{
+    font-weight: 400;
+}
+
+.l{
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.center{
+    text-align: center;
+}
+
+.cb{
+    color: var(--color-black)
+}
+
+.cg{
+    color: var(--color-gray)
+}
+
+.pb-1{
+    padding-bottom: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-1{
+    margin-top: 1rem;
+}

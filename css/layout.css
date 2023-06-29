@@ -1,0 +1,53 @@
+.container{
+    max-width: 160rem;
+    height: 100vh;
+    margin: 0rem auto;
+    
+}
+
+.content{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+
+}
+
+.sidebar{
+    display: flex;
+    flex: 0 0 20%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    font-size: 1.4rem;
+}
+
+.dashboard-view{
+    display: flex;
+    flex: 1;
+
+}
+
+.dashboard-report{
+display: flex;
+flex-direction: column;
+padding: 5rem 5rem;
+flex: 0 0 45%;
+background-color: var(--color-white);
+}
+
+.dashboard-feeds{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 5rem;
+    flex: 0 0 45%;
+    background-color: var(--color-primary);
+}
+
+.dashboard-profile{
+    justify-content: space-between;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    background-color: var(--color-white);
+}

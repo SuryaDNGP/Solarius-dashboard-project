@@ -1,0 +1,44 @@
+.dashboard-feeds__head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dashboard-feed__box{
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.dashboard-feed__box:not(:last-child){
+    margin-bottom: 2rem;
+}
+
+.dashboard-feed__box-tag{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-feed__icon-tag{
+    padding-top: 2rem;
+}
+
+/* Data section */
+
+.dashboard-feeds__data{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dashboard-feeds__data-item{
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    width: 50%;
+    padding: 2rem 0;
+}
+.data-icons{
+    width: 6rem
+    
+}
+

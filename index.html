@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- -------------------------- CSS Style sheets --------------------------  -->
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/feed.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/queries.css">
+
+    <!-- -------------------------- Google Fonts --------------------------  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- -------------- Sidebar -------------- -->
+            <div class="menu-toggle">
+                <div class="hamburger">
+                    <span></span>
+                </div>
+
+            </div>
+
+            <nav class="sidebar"> 
+                
+                <ul class="sidebar-nav">
+                    <li class="sidebar-nav__logo-item">
+                        <img class="sidebar-nav__logo" src="assets/logo.png" alt="Logo image">
+                    </li>
+                    <li class="sidebar-nav__item sidebar-nav__item-2">
+                        <a href="#" class="sidebar-nav__link">
+                            <img class="sidebar-nav__icon" src="assets/dashboard.svg" alt="Logo image">
+                            <span>Dashboard</span>
+                        </a>      
+                    </li>
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">
+                            <img class="sidebar-nav__icon" src="assets/education.svg" alt="Logo image">
+                            <span>Education</span>
+                        </a>      
+                    </li>
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">
+                            <img class="sidebar-nav__icon" src="assets/resource.svg" alt="Logo image">
+                            <span>Resource</span>
+                            <img class="sidebar-nav__icon-1" src="assets/dropdown.svg" alt="Logo image">
+                            
+                        </a> 
+                        <li class="sidebar-nav__sub-item">
+                            <a href="#" class="sidebar-nav__sub-link">
+                                <img class="sidebar-nav__icon" src="assets/pink.svg" alt="Logo image">
+                                <span>Genetics 101</span>
+                            </a> 
+                        </li>
+                        <li class="sidebar-nav__sub-item">
+                            <a href="#" class="sidebar-nav__sub-link">
+                                <img class="sidebar-nav__icon" src="assets/sandal.svg" alt="Logo image">
+                                <span>DNA synthesis</span>
+                            </a> 
+                        </li>
+                        <li class="sidebar-nav__sub-item">
+                            <a href="#" class="sidebar-nav__sub-link">
+                                <img class="sidebar-nav__icon" src="assets/blue.svg" alt="Logo image">
+                                <span>Events</span>
+                            </a> 
+                        </li>
+                    </li>
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">
+                            <img class="sidebar-nav__icon" src="assets/settings.svg" alt="Logo image">
+                            <span>Settings</span>
+                        </a>      
+                    </li>
+                </ul>    
+                <ul class="sidebar-nav">
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">
+                            <img class="sidebar-nav__icon" src="assets/logout.svg" alt="Logo image">
+                            <span>Logout</span>
+                        </a>      
+                    </li>
+                </ul>
+            </nav>
+            <main class="dashboard-view">
+                <!-- -------------- Report section-------------- -->
+                <div class="dashboard-report">
+
+                    <!-- Plan comp -report view -->
+                    <div class="dashboard-report__plan">
+                        <div>
+                            <p class="h3">Today's Plan</p>
+                            <p class="h6 cg">June 14th, 2022</p>
+                        </div>       
+                        <img class="dashboard-report__add-icon"  src="assets/add.svg">
+                    </div>
+
+                    <!-- Headline comp - report view -->
+                    <div class="dashboard-report__headline">
+                        <p class="h1 m" >Sustainable development goals</p>
+                        <p class="h1 m pb-1"> and health innovation</p>
+                        <div class="dashboard-report__headline-sec2">
+
+                            <div class="dashboard-report__avatars">
+                                <img src="assets/avatar.svg" alt="avatar image" class="avatars">
+                                <img src="assets/avatar.svg" alt="avatar image" class="avatars">
+                                <img src="assets/avatar.svg" alt="avatar image" class="avatars">
+                                <img src="assets/avatar.svg" alt="avatar image" class="avatars">
+                            </div>
+                            <div>
+                                <img src="assets/line.svg" alt="line" class="line">
+                            </div>
+                            <div>
+                                <p class="h5">Medi Team meeting</p>
+                                <p class="h6 cg">13:40 - 14:50</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <!-- Images comp - report view -->
+                    <div class="dashboard-report__images">
+                        <div class="img-container">
+                            <img src="assets/bg.jpg" alt="bg" class="dashboard-image">
+                            <div class="img-container__heading">
+                                <p class="h3">Weekly Report</p>
+                                <p class="h4">Track your performance</p>
+                            </div>
+                            <button class="dashboardImg-button">VIEW REPORT</button>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-report__images-2">
+                            <div class="img-container">
+                                <img src="assets/portrait.jpg" alt="bg" class="dashboard-image2">
+                                <div class="img-container__heading">
+                                    <p class="h3">Study 78X</p>
+                                    <div class="dashboardImg-sec-heading">
+                                        <img src="assets/time.svg" alt="time icon" class="dashboardImg-icon">
+                                        <p class="h5">In Progress</p>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <div class="img-container">
+                                <img src="assets/portrait.jpg" alt="bg" class="dashboard-image2">
+                                <div class="img-container__heading">
+                                    <p class="h3">Analyses</p>
+                                    <div class="dashboardImg-sec-heading">
+                                        <img src="assets/completed.svg" alt="time icon" class="dashboardImg-icon">
+                                        <p class="h5">Completed</p>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                    </div>
+
+                </div>
+                <!-- -------------- Feeds section -------------- -->
+                <div class="dashboard-feeds">
+                    <div class="dashboard-feeds__head mb-2">
+                        <p class="h3">Monthly pinned</p>
+                        <a href="#" class="h5 cg">View all</a>
+                    </div>
+                    <!-- Box-1 -->
+                    <div class="dashboard-feed__box">
+                        <div class="dashboard-feed__box-tag">
+                            <p>Next-gen immuno</p>
+                            <p>5d</p>
+                        </div>
+                        <p class="h4 m">Multispecific liquids analysis</p>
+                        <div class="dashboardImg-sec-heading dashboard-feed__icon-tag">
+                            <img src="assets/time.svg" alt="time icon" class="dashboardImg-icon">
+                            <p class="h5">In Progress</p>
+                        </div>
+                    </div>
+                    <!-- Box-2 -->
+                    <div class="dashboard-feed__box">
+                        <div class="dashboard-feed__box-tag">
+                            <p>Harmony</p>
+                            <p>1h</p>
+                        </div>
+                        <p class="h4 m">Protein characterization during childhood and pregnancy.</p>
+                        <div class="dashboardImg-sec-heading dashboard-feed__icon-tag">
+                            <img src="assets/time.svg" alt="time icon" class="dashboardImg-icon">
+                            <p class="h5">In Progress</p>
+                        </div>
+                    </div>
+                    <!-- Box-3 -->
+                    <div class="dashboard-feed__box">
+                        <div class="dashboard-feed__box-tag">
+                            <p>Pharmaceutical</p>
+                            <p>7h</p>
+                        </div>
+                        <p class="h4 m">Quick element dissolution testing</p>
+                        <div class="dashboardImg-sec-heading dashboard-feed__icon-tag">
+                            <img src="assets/time.svg" alt="time icon" class="dashboardImg-icon">
+                            <p class="h5">In Progress</p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-feeds__head mt-1">
+                        <p class="h3">My Learnings</p>
+                        <a href="#" class="h5">...</a>
+                    </div>
+                    <p class="cg">Your progress of medical lectures</p>
+
+
+                    <!-- Data comp - feeds section -->
+                    <div class="dashboard-feeds__data">
+                        <!-- Data-1 -->
+                        <div class="dashboard-feeds__data-item">
+                            <img src="assets/pink.svg" alt="icons" class="data-icons"> 
+                            <div>
+                                <p class="h4 m">Viruses</p>
+                                <p class="cg">96% progress</p>
+                            </div>
+                        </div>
+                         <!-- Data-2 -->
+                        <div class="dashboard-feeds__data-item">
+                            <img src="assets/blue.svg" alt="icons" class="data-icons"> 
+                            <div>
+                                <p class="h4 m">Bacterial cells</p>
+                                <p class="cg">33% progress</p>
+                            </div>
+                        </div>
+                         <!-- Data-3 -->
+                        <div class="dashboard-feeds__data-item">
+                            <img src="assets/sandal.svg" alt="icons" class="data-icons"> 
+                            <div>
+                                <p class="h4 m">Med Science</p>
+                                <p class="cg">7% progress</p>
+                            </div>
+                        </div>
+                         <!-- Data-4 -->
+                        <div class="dashboard-feeds__data-item">
+                            <img src="assets/blue.svg" alt="icons" class="data-icons"> 
+                            <div>
+                                <p class="h4 m">Human gens</p>
+                                <p class="cg">58% progress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- -------------- Profile section -------------- -->
+                <div class="dashboard-profile">
+                    <div class="dashboard-profile__avatar">
+                        <img src="assets/avatar.svg" alt="Avatar" class="profile-avatar">
+                        <div class="center">
+                            <p class="h4 m">Dr. Riddle</p>
+                            <p class="h6">Scientist</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-profile__icons">
+                        <img src="assets/add.svg" class="profile-icon">
+                        <img src="assets/add.svg" class="profile-icon">
+                        <img src="assets/add.svg" class="profile-icon">
+                    </div>
+                </div>
+            </main>
+        </div>
+
+    </div>
+    <script>
+        const menu_toggle = document.querySelector('.menu-toggle');
+		const sidebar = document.querySelector('.sidebar');
+
+		menu_toggle.addEventListener('click', () => {
+			sidebar.classList.toggle('is-active');
+		});
+	</script>
+
+    
+</body>
+</html>
